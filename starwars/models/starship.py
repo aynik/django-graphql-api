@@ -5,7 +5,7 @@ from .transport import Transport
 
 
 class Starship(Transport):
-    """ A starship is a transport with a hypderdrive """
+    """A starship is a transport with a hypderdrive"""
 
     hyperdrive_rating = models.CharField(max_length=40)
     MGLT = models.CharField(max_length=40)
