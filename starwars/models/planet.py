@@ -4,7 +4,7 @@ from .base_models import DateTimeModel
 
 
 class Planet(DateTimeModel):
-    """ A planet i.e. Tatooine """
+    """A planet i.e. Tatooine"""
 
     name = models.CharField(max_length=100)
     rotation_period = models.CharField(max_length=40)

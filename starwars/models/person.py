@@ -5,7 +5,7 @@ from .planet import Planet
 
 
 class Person(DateTimeModel):
-    """ A person i.e. - Luke Skywalker """
+    """A person i.e. - Luke Skywalker"""
 
     name = models.CharField(max_length=100)
     height = models.CharField(max_length=10, blank=True)
